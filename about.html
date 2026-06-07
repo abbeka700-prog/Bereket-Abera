@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Bereket Abera</title>
+    <!-- Link your unified stylesheet (with cache buster) -->
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <!-- Google Fonts link for Instrument Sans matching your typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="about-page-body">
+
+    <!-- SOLID WHITE NAV HEADER BAR -->
+    <header class="site-header">
+        <div class="header-inner-container">
+            <a href="index.html" class="nav-brand-logo">BEREKET<br>ABERA<span>®</span></a>
+            
+            <nav class="desktop-nav-links">
+                <a href="index.html" class="nav-item-link">Home</a>
+                <a href="about.html" class="nav-item-link active-page">About Us</a>
+                <a href="index.html#work" class="nav-item-link">Projects</a>
+                <a href="index.html#services" class="nav-item-link">Services</a>
+                <a href="contact.html" class="desktop-contact-pill-btn">Contact Us ↗</a>
+            </nav>
+
+            <button class="mobile-burger-trigger" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span class="burger-line line-top"></span>
+                <span class="burger-line line-middle"></span>
+                <span class="burger-line line-bottom"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- MOBILE NAVIGATION OVERLAY DRAWER -->
+    <div class="mobile-menu-overlay">
+        <nav class="mobile-nav-options">
+            <a href="index.html" class="mobile-nav-link">Home</a>
+            <a href="about.html" class="mobile-nav-link">About Us</a>
+            <a href="index.html#work" class="mobile-nav-link">Projects</a>
+            <a href="index.html#services" class="mobile-nav-link">Services</a>
+            <a href="contact.html" class="mobile-nav-link mobile-contact-pill">Contact Us ↗</a>
+        </nav>
+    </div>
+
+    <main class="about-main-content">
+        <!-- SECTION 1: SPLIT HERO INTRO -->
+        <section class="about-hero-section">
+            <div class="about-container">
+                <div class="about-hero-grid">
+                    <div class="about-hero-text">
+                        <span class="about-subtitle-tag">THE STUDIO</span>
+                        <h1 class="about-main-heading">Building clean digital narratives with precision.</h1>
+                    </div>
+                    <div class="about-hero-description">
+                        <p class="about-lead-paragraph">
+                           My name is <b>Bereket Abera</b> and I'm a Web Developer and Designer with 1.5 years of experience specializing in PHP, MySQL, HTML, CSS, and JavaScript. I create responsive, 
+                           user-friendly websites and web applications that combine functionality with attractive design.
+                            I'm passionate about solving problems, learning new technologies, and turning ideas into engaging digital experiences.
+                        </p>
+                        <p class="about-body-paragraph">
+                           I am continuously expanding my knowledge of modern web technologies and best practices to deliver high-quality digital experiences. 
+                           My goal is to build innovative, efficient, 
+                           and visually appealing solutions that help businesses and individuals achieve their objectives online.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: METRIC SHOWCASE (DARK MODE STATEMENT ACCENT) -->
+        <section class="about-metrics-section">
+            <div class="about-container">
+                <div class="metrics-grid">
+                    <div class="metric-item">
+                        <h3 class="metric-number">1.5+</h3>
+                        <p class="metric-label">Years of Development and Design Experience</p>
+                    </div>
+                    <div class="metric-item">
+                        <h3 class="metric-number">5+</h3>
+                        <p class="metric-label">Projects Completed</p>
+                    </div>
+                    <div class="metric-item">
+                        <h3 class="metric-number">95%</h3>
+                        <p class="metric-label">Customer Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: CORE CAPABILITIES / PHILOSOPHY -->
+        <section class="about-capabilities-section">
+            <div class="about-container">
+                <div class="capabilities-layout">
+                    <div class="capabilities-sticky-left">
+                        <h2 class="section-title-sticky">Our core pillars.</h2>
+                    </div>
+                    <div class="capabilities-list-right">
+                        <div class="capability-row">
+                            <span class="capability-num">01</span>
+                            <div class="capability-content">
+                                <h4>Interaction Design</h4>
+                                <p>Crafting intentional interface mechanics that prioritize responsive scannability and structural elegance across both ultra-wide screens and mobile display layouts.</p>
+                            </div>
+                        </div>
+                        <div class="capability-row">
+                            <span class="capability-num">02</span>
+                            <div class="capability-content">
+                                <h4>Visual Design</h4>
+                                <p>Building a cohesive visual language that harmonizes typography, color, and layout to create engaging and intuitive user experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- ==========================================================================
+             MINIMALIST CV IMAGE GALLERY VIEW
+             ========================================================================== -->
+        <section class="about-cv-section-pure">
+            <div class="about-container">
+                
+                <div class="cv-pure-header">
+                    <span class="about-subtitle-tag">CURRICULUM VITAE</span>
+                </div>
+
+                <div class="cv-pure-display-frame">
+                    <!-- REPLACE "your_cv_image.png" WITH YOUR ACTUAL IMAGE FILE NAME -->
+                    <img src="cv pic.png" alt="Bereket Abera CV" class="cv-pure-image">
+                </div>
+
+            </div>
+        </section>
+
+          
+    </main>
+
+    <!-- Simple script hook for mobile hamburger functionality -->
+    <script src="app.js?v=2.0"></script>
+</body>
+</html>
